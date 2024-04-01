@@ -3,7 +3,7 @@ function addingEventListener() {
     const input = document.getElementaryById('button');
 
     function clickAlert(){
-        alert('iwascicked!');
+        alert('I was clicked!');
     }
 
     input.addEventlistener('click', clickAlert);
